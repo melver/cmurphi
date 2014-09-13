@@ -1,0 +1,27 @@
+===========================================================================
+This directory contains lots of example protocols in Murphi:
+
+dash            : the DASH multiprocessor protocols
+multiset+sym    : examples using both scalarsets and multisets
+mux             : mutual exclusion algorithms
+others          : other practical systems
+sci             : typical set cache coherence protocol of the
+                  Scalable Coherent Interface (SCI), IEEE Std 1596-1992
+secur           : security protocols
+sym             : examples using scalarsets
+toy             : toy examples
+real            : examples using real numbers
+probrules       : examples using probability-based rules; it contains:
+		  lr:            Lehmann-Rabin Probabilistic Dining Philosophers,  a
+				 finite horizon probabilistic property is verified
+		  pz:            Pnueli-Zuck Probabilistic Dining Philosophers,  a
+				 finite horizon probabilistic property is verified
+		  prob_turbogas: a Turbogas Control System, a finite horizon 
+				 probabilistic property is verified
+		  lr.pctl:             Lehmann-Rabin protocol again, but a BPCTL 
+				       formula with nested untils is verified
+		  pz.pctl:             Pnueli-Zuck protocol again, but a BPCTL 
+				       formula with nested untils is verified
+                  prob_turbogas.bpctl: the Turbogas Control System again, but a BPCTL 
+                                       formula with nested untils is verified
+===========================================================================

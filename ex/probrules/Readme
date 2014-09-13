@@ -1,0 +1,31 @@
+=============================================================================
+This directory contains four directories with examples in CMurphi 5.4 for 
+the probability verification extension:
+
+Readme                           : this file.
+
+prob_turbogas/prob_turbogas.m    : Murphi description of a Co-Generative 
+				   Electric Power Plant; it is the same as
+				   the one in the ../real directory, but it
+				   has a probability distribution for the
+				   user demand.
+prob_turbogas/Makefile           : make file to generate the verifier source
+                                   and executable.
+
+pz/dphil.m                       : Murphi description of the Pnueli-Zuck 
+                                   protocol for probabilistic dining 
+                                   philosophers.
+pz/Makefile                      : make file to generate the verifier source
+                                   and executable.
+
+lr/dphil.m                       : Murphi description of the Lehmann-Rabin
+                                   protocol for probabilistic dining 
+                                   philosophers.
+lr/Makefile                      : make file to generate the verifier source
+                                   and executable.
+
+prob_turbogas.bpctl, pz.bpctl, lr.bpctl has the same models but verify a
+BPCTL property with nested untils (the above models, instead, verify a
+probabilistic safety property).
+
+=============================================================================

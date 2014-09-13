@@ -1,0 +1,9 @@
+==============================================================================
+This directory contains examples in CMurphi 5.4 for the real
+numbers extension:
+
+Makefile.FULL : make file to generate the verifier source code and executable.
+Readme        : this file.
+turbogas.m    : Murphi description of a Co-Generative Electric Power Plant.
+
+==============================================================================
